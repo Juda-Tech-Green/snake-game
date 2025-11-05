@@ -29,9 +29,6 @@ class Snake:
         body = Turtle(shape="square")
         if (len(self.snake)) % 5 == 0 and len(self.snake)!=0:
             body.color(tail_color())
-            if len(self.snake)!=0:
-                self.upgradeSpeed()
-                print('speed upgraded')
         elif 1 <= len(self.snake) <= 5:
             body.color('white')
         elif len(self.snake) == 0:
@@ -52,9 +49,6 @@ class Snake:
 
     def extend(self):
         self.add_segment(self.snake[-1].position())
-
-    def upgradeSpeed(self):
-        self.MOVE_DISTANCE += 0.5
 
     def move(self):
         for seg_num in range(len(self.snake) - 1, 0, -1):

